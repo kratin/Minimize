@@ -1,0 +1,10 @@
+D:\Workplace\Application\MintraTuorial\Minimize\Minimize\bin\Debug\Minimize.exe
+D:\Workplace\Application\MintraTuorial\Minimize\Minimize\bin\Debug\Minimize.pdb
+D:\Workplace\Application\MintraTuorial\Minimize\Minimize\obj\Debug\ResolveAssemblyReference.cache
+D:\Workplace\Application\MintraTuorial\Minimize\Minimize\obj\Debug\Minimize.Properties.Resources.resources
+D:\Workplace\Application\MintraTuorial\Minimize\Minimize\obj\Debug\Minimize.csproj.GenerateResource.Cache
+D:\Workplace\Application\MintraTuorial\Minimize\Minimize\obj\Debug\Minimize.exe
+D:\Workplace\Application\MintraTuorial\Minimize\Minimize\obj\Debug\Minimize.pdb
+D:\Workplace\Application\MintraTuorial\Minimize\Minimize\obj\Debug\Minimize.Form1.resources
+D:\Workplace\Application\MintraTuorial\TestMinimize\Minimize\Minimize\obj\Debug\Minimize.exe
+D:\Workplace\Application\MintraTuorial\TestMinimize\Minimize\Minimize\obj\Debug\Minimize.pdb
