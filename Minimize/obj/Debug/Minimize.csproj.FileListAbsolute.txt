@@ -8,3 +8,11 @@ D:\Workplace\Application\MintraTuorial\Minimize\Minimize\obj\Debug\Minimize.pdb
 D:\Workplace\Application\MintraTuorial\Minimize\Minimize\obj\Debug\Minimize.Form1.resources
 D:\Workplace\Application\MintraTuorial\TestMinimize\Minimize\Minimize\obj\Debug\Minimize.exe
 D:\Workplace\Application\MintraTuorial\TestMinimize\Minimize\Minimize\obj\Debug\Minimize.pdb
+E:\TRAIN\GitHub\Minimize\Minimize\bin\Debug\Minimize.exe
+E:\TRAIN\GitHub\Minimize\Minimize\bin\Debug\Minimize.pdb
+E:\TRAIN\GitHub\Minimize\Minimize\obj\Debug\ResolveAssemblyReference.cache
+E:\TRAIN\GitHub\Minimize\Minimize\obj\Debug\Minimize.Form1.resources
+E:\TRAIN\GitHub\Minimize\Minimize\obj\Debug\Minimize.Properties.Resources.resources
+E:\TRAIN\GitHub\Minimize\Minimize\obj\Debug\Minimize.csproj.GenerateResource.Cache
+E:\TRAIN\GitHub\Minimize\Minimize\obj\Debug\Minimize.exe
+E:\TRAIN\GitHub\Minimize\Minimize\obj\Debug\Minimize.pdb

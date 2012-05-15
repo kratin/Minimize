@@ -19,52 +19,56 @@ namespace Minimize
 
         private void Form1_Load(object sender, EventArgs e)
         {
+           
 
+            //Display the Notify Baloon for 1 second  
+            /* mynotifyicon.ShowBalloonTip(1000); */
+
+            //Set the WindowState in Minimized Mode  
+           /* WindowState = FormWindowState.Minimized; */
         }
 
         private void Form1_Resize(object sender, EventArgs e)
         {
-            /* if (FormWindowState.Minimized == this.WindowState)
-           {
-               mynotifyicon.Visible = true;
-               mynotifyicon.ShowBalloonTip(500);
-               this.Hide();
-           }
-           else if (FormWindowState.Normal == this.WindowState)
-           {
-               mynotifyicon.Visible = false;
-           } */
+            mynotifyicon.BalloonTipTitle = "My Sample Application";
+            mynotifyicon.BalloonTipText = "This application was minimized to tray";
+           
 
-            if (this.WindowState == FormWindowState.Minimized)//this code gets fired on every resize
-            {																					   //so we check if the form was minimized
-                Hide();//hides the program on the taskbar
-                mynotifyicon.Visible = true;//shows our tray icon
-
-                Thread.Sleep(3000);//pause for 3 seconds
-                //shows a balloon for 1 sec with a title, some text, and the info icon
-                //other possibilities are: TooltipIcon.None, Tooltipicon.Error, and TooltipIcon.Warning
-                mynotifyicon.ShowBalloonTip(1000, "Hello", "This is a balloontip!", ToolTipIcon.Info);
+            //On minimize mode, show the form in System Tray only  
+            if (FormWindowState.Minimized == this.WindowState)
+            {
+                mynotifyicon.Visible = true;
+                mynotifyicon.ShowBalloonTip(500);
+                this.Hide();
+            }else if(FormWindowState.Normal == this.WindowState){
+                mynotifyicon.Visible = false;
             }
-              
-          
-
-           /* if (FormWindowState.Minimized == WindowState)
-                Hide();
-             */
         }
 
         private void mynotifyicon_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-             Show();//shows the program on taskbar
+            /* Show();//shows the program on taskbar
             this.WindowState = FormWindowState.Normal;//undoes the minimized state of the form
-            mynotifyicon.Visible = false;//hides tray icon again
-
-         
+            mynotifyicon.Visible = false;//hides tray icon again */
 
             /* Show();
             WindowState = FormWindowState.Normal;
             mynotifyicon.Visible = true;
               */
+
+            //Display the Form in normal state  
+            this.Show(); 
+            this.WindowState = FormWindowState.Normal;
+             
+        }
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
+
+        private void TrayMinimizerForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
